@@ -1,14 +1,19 @@
 Plant Co. Performance Report
+
 A Power BI report built to track and compare sales performance for a fictional plant company across 2022 to 2024.
 
 What Does This Report Do?
+
 This dashboard lets you see how the company is performing compared to the same time last year. You can switch between Sales, Quantity and Gross Profit using a slicer and the whole report updates automatically.
 
 Tools Used
 
 Power BI Desktop — Built the report and all visuals
+
 Power Query — Cleaned and prepared the data before loading it in
+
 DAX — Written to create measures, calculations and dynamic titles
+
 File Format — .pbix
 
 
@@ -16,12 +21,16 @@ Where Does the Data Come From?
 An Excel file with three tables:
 
 Fact_Sales — All the sales transactions including dates, prices and costs
+
 Dim_Account — Information about each customer account and their country
+
 Dim_Product — Product details like product type, size and family
 
 
 What's in the Report?
+
 Header Cards at the Top
+
 Shows four key numbers at a glance:
 
 YTD — how much has been sold this year so far
